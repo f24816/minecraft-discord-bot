@@ -1,5 +1,5 @@
 # Discord Bot to start Minecraft Server
-This bot checks for emoji count on a certain discord message, if the number is bigger than X it starts the server.
+This bot checks for react emoji on a certain discord message, if they are enough of x emoji (check script) it starts the server.
 
 It has some basic configuration:
 ```python
