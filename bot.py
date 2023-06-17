@@ -27,7 +27,7 @@ def count_emoji():
         reactions = message.reactions
         for reaction in reactions:
             if reaction.emoji == EMOJI:
-                if reaction.count > EMOJI_LIMIT:
+                if reaction.count > EMOJI_LIMIT-1:
                     try:
                         status = server.status()
                     except:
