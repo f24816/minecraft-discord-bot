@@ -1,7 +1,7 @@
 # Discord Bot to start Minecraft Server
 This bot checks for emoji count on a certain discord message, if the number is bigger than X it starts the server.
 
-It has some basic configuration like
+It has some basic configuration:
 ```python
 CHANNEL_ID = 0 # ID of the discord channel.
 MESSAGE_ID = 0 # ID of the message.
