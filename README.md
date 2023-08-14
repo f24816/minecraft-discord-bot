@@ -3,10 +3,8 @@ This bot checks for react emoji on a certain discord message, if they are enough
 
 It has some basic configuration:
 ```python
-CHANNEL_ID = 0 # ID of the discord channel.
-MESSAGE_ID = 0 # ID of the message.
-SERVER_ADDRESS = "localhost" # Adress of the minecraft server.
-START_COMMAND = "./start.sh" # Bash script to start the server.
-STOP_COMMAND = "./stop.sh" # Bash script to stop the server.
-EMOJI = "👍" # The emoji to look for.
-EMOJI_LIMIT = 1 # The number of emojis to start the server.
+CHANNEL_ID = 0
+MESSAGE_ID = 0
+TOKEN = open("TOKEN", "r").read()
+START_COMMAND = "./start.sh"
+server = JavaServer.lookup("localhost", 25565)
